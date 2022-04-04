@@ -1,0 +1,17 @@
+POST http://localhost:3500/api/tasks HTTP/1.1
+Content-Type: application/json
+
+{
+    "task": "Hacer la tarea del Sena"
+}
+
+####
+DELETE http://localhost:3500/api/tasks/624a4d6f3380e225e207de51 HTTP/1.1
+
+####
+PUT http://localhost:3500/api/tasks/624a4d6f3380e225e207de51 HTTP/1.1
+Content-Type: application/json
+
+{
+    "task": "Hacer los retos de azure"
+}
