@@ -13,14 +13,12 @@ exports.getTasks = async (req, res) => {
 
 exports.postTask = async (req, res) => {
     try {
-        const data = req.body
-        console.log(data)
+        console.log(req.body)
+        const data = await req.body
+
         
-        if (Object.keys(data).length === 0) {
-            return false
-        }
         
-        const taskToAdd = new task(data)
+        const taskToAdd = await new task(data)
 
         await taskToAdd.save()
 
