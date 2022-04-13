@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  /* font-family: var(--font); */
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  /* color: var(--text-color); */
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+p {
+  padding-left: 4rem;
+}
+
+h3,
+h4 {
+  padding-left: 2rem;
+}
+
+h3 {
+  color: blue;
+}
+
+span {
+  margin-left: 6rem;
+}
+
+.my-web {
+  text-decoration: none;
+}
+
+h4 {
+  color: brown;
+}
+
+.contact {
+  text-align: center;
+  /* padding-top: rem; */
+}
+
+.bye {
+  text-align: center;
+  padding-top: 2rem;
+  color: blue;
+  font-size: 1.6rem;
+}
